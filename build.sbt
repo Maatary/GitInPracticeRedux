@@ -12,3 +12,6 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 
 
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.9"
+
+
+fork := true
