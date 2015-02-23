@@ -1,7 +1,8 @@
+package Actors
+
 import java.util.concurrent.TimeUnit
 
-import akka.actor.{Props, ActorSystem, Actor}
-import akka.actor.Actor.Receive
+import akka.actor.{Actor, ActorSystem, Props}
 
 import scala.concurrent.Future
 import scala.concurrent.duration.Duration

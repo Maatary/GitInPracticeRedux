@@ -1,15 +1,11 @@
-/**
- * Created by maatary on 2/12/15.
- */
+package Actors
 
-
-import akka.util.Timeout
-import akka.util.Timeout._
-
-import scala.concurrent.duration._
-
+import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 
+/**
+ * Created by maatary on 2/23/15.
+ */
 object TThreadAPP extends App {
 
   import scala.concurrent.ExecutionContext.Implicits.global
