@@ -45,10 +45,7 @@ val pairs = for (x <- 0 until 4; y <- 0 until 4) yield (x, y)
 (0 until 4).flatMap (x => (0 until 4).map(y => (x,y)))
 val me = "Daniel"
 println(s"hey there i am $me")
-
-
 val code : Unit = { println("Block of code") }
-
 
 def runCode (code: => Unit, flag: Boolean) = {
 
@@ -60,7 +57,7 @@ def runCode (code: => Unit, flag: Boolean) = {
 runCode(code, true)
 
 
-
 val p = Promise[String]
 
 p.success("")
+
